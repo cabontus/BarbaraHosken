@@ -61,17 +61,14 @@ global
 .showcase {
 	background-image: url("../img/background.jpg");
 	opacity: 0.85;
-	padding-top: 40px;
-	padding-bottom: 150px;/*** Aumentei de 40 para 150px para aumentar o background mas o logo colou  na borda superior****/
+	padding: 100px 0;
 }
 
 .showcase img {
 	display: block;
-	position: relative; /********* add depois**********/
-	top: 60px;/********* add depois**********/
-	margin: 0 auto; /********** não bastaria só esse comando pra centralizar o logo?**********/
+	margin: 0 auto;
 	width: 100%;
-	max-width: 190px; /********** por quê atribuir o valor "100%" ao invés de 190px deixa o logo grande e distorcindo?**********/
+	max-width: 190px;
 }
 
 /*==================================================================
@@ -99,7 +96,7 @@ global
 
 .evaluation .step {
 	list-style: none;
-	margin: 0 auto 60px auto; 
+	margin: 0 auto 60px auto;
 	text-align: center;
 }
 
@@ -196,7 +193,7 @@ global
 ====================================================================*/
 .therapies {
 	background-image: url("../img/pattern.jpg");
-	background-size: 100%; 
+	background-size: 100%;
 	padding-bottom: 60px;
 }
 
