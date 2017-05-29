@@ -36,6 +36,10 @@ global
 /*==================================================================
 .mainMenu
 ====================================================================*/
+.mainMenu {
+	background-color: #59a392;
+}
+
 .mainMenu li a {
 	display: block;
 	background-color: #59a392;
@@ -233,7 +237,6 @@ global
 ====================================================================*/
 .mainFooter {
 	background-color: #4ea391;
-	line-height: 16pt;
 	padding: 20px 0;
 }
 
@@ -246,6 +249,7 @@ global
 	font-size: 12pt;
 	color: #ffffff;
 	list-style: none;
+	line-height: 20pt;
 }
 
 .mainFooter .social {
