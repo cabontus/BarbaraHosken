@@ -1,0 +1,254 @@
+/*==================================================================
+body
+====================================================================*/
+body {
+	font-family: sans-serif;
+	font-size: 10pt;
+}
+
+/*==================================================================
+global
+====================================================================*/
+.wrapper {
+	padding: 0 20px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.vhide{
+	position: fixed;
+	display: block;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	background-color: transparent;
+	color: transparent;
+	background-image: none;
+}
+
+/*==================================================================
+.mainHeader
+====================================================================*/
+.mainHeader h1 {
+	font-size: 40px;
+}
+
+/*==================================================================
+.mainMenu
+====================================================================*/
+.mainMenu li a {
+	display: block;
+	background-color: #59a392;
+	padding: 20px;
+	margin: 0 1px 1px 1px;
+	font-size: 16pt;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+.mainMenu li a:hover {
+	background-color: rgba(213,233,215,0.4);
+}
+
+/*==================================================================
+.showcase
+====================================================================*/
+.showcase {
+	background-image: url("../img/background.jpg");
+	opacity: 0.85;
+	padding-top: 40px;
+	padding-bottom: 150px;/*** Aumentei de 40 para 150px para aumentar o background mas o logo colou  na borda superior****/
+}
+
+.showcase img {
+	display: block;
+	position: relative; /********* add depois**********/
+	top: 60px;/********* add depois**********/
+	margin: 0 auto; /********** não bastaria só esse comando pra centralizar o logo?**********/
+	width: 100%;
+	max-width: 190px; /********** por quê atribuir o valor "100%" ao invés de 190px deixa o logo grande e distorcindo?**********/
+}
+
+/*==================================================================
+.evaluation
+====================================================================*/
+.evaluation {
+	background-color: #4ea391;
+	padding-bottom: 80px;
+}
+
+.evaluation header {
+	padding: 30px 0;
+	background-color: rgba(217,232,228,0.2);
+	text-align: center;
+}
+
+.evaluation header h2 {
+	font-size: 16pt;
+	color: #ffffff;
+}
+
+.evaluation ol {
+	padding: 40px 0;
+}
+
+.evaluation .step {
+	list-style: none;
+	margin: 0 auto 60px auto; 
+	text-align: center;
+}
+
+.evaluation .step:last-child {
+	margin-bottom: 0;
+}
+
+.evaluation .step i {
+	font-size: 50pt;
+	color: #fff;
+}
+
+.evaluation .step i:hover {
+	font-size: 50pt;
+	color: #d5e9d7;
+}
+
+.evaluation .step h3 {
+	font-size: 16pt;
+	color: #ffffff;
+	margin: 20px 0;
+
+}
+
+.evaluation .step p {
+	font-size: 14pt;
+	color: #ffffff;
+	line-height: 20pt;
+}
+
+/*==================================================================
+.click
+====================================================================*/
+.click {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.click a {
+	display: block;
+	font-size: 16pt;
+	text-decoration: none;
+	color: #4ea391;
+	padding: 20px;
+	background: rgba(255,255,255, 0.8);
+	border-radius: 3px;
+}
+
+.click a:hover {
+	background-color: #ffffff;
+}
+
+/*==================================================================
+.aboutUs
+====================================================================*/
+.aboutUs {
+	background-color: #d5e9d7;
+	padding-bottom: 60px;
+}
+
+.aboutUs > header {
+	margin-bottom: 20px;
+}
+
+.aboutUs img {
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	border: 5px solid #ffffff;
+	position: relative;
+	top: -40px;
+}
+
+.aboutUs h2 {
+	text-align: center;
+	font-size: 22pt;
+}
+
+.aboutUs .contentCurriculum {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.aboutUs .contentCurriculum p {
+	font-size: 14pt;
+	color: #4f6867;
+	margin-bottom: 10px;
+	line-height: 16pt;
+}
+
+/*==================================================================
+.therapies
+====================================================================*/
+.therapies {
+	background-image: url("../img/pattern.jpg");
+	background-size: 100%; 
+	padding-bottom: 60px;
+}
+
+.therapies .mainQuote {
+	padding: 30px 0;
+	margin-bottom: 40px;
+	background-color: rgba(255,255,255, 0.2);
+}
+
+.therapies .mainQuote p {
+	text-align: center;
+	font-size: 14pt;
+	color: #ffffff;
+}
+
+.therapies li {
+	list-style: none;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.therapies li:last-child {
+	margin-bottom: 0;
+}
+
+.therapies img {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.therapies h3 {
+	color: #ffffff;
+	font-size:12pt;
+}
+
+/*==================================================================
+.mainFooter
+====================================================================*/
+.mainFooter {
+	background-color: #4ea391;
+	line-height: 16pt;
+	padding: 20px 0;
+}
+
+.mainFooter strong {
+	color: #ffffff;
+	font-size: 14pt;
+}
+
+.mainFooter li {
+	font-size: 12pt;
+	color: #ffffff;
+	list-style: none;
+}
+
+.mainFooter .social {
+	padding: 0 0 30px;
+	list-style: none;
+}
