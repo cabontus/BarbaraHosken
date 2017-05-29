@@ -40,6 +40,10 @@ global
 	background-color: #59a392;
 }
 
+.mainMenu > .wrapper {
+	padding: 0;
+}
+
 .mainMenu li a {
 	display: block;
 	background-color: #59a392;
