@@ -20,14 +20,14 @@
 	/*==================================================================
 	.evaluation
 	====================================================================*/
-	.evaluation .step {
+	#evaluation .step {
 		float: left;
 		width: 33.333333%;
 		padding: 0 20px;
 	}
 
-	.evaluation .step:first-child {padding-left: 0;}
-	.evaluation .step:last-child {padding-right: 0;}
+	#evaluation .step:first-child {padding-left: 0;}
+	#evaluation .step:last-child {padding-right: 0;}
 
 	/*==================================================================
 	.click
@@ -37,11 +37,11 @@
 	}
 
 	/*==================================================================
-	.therapies
+	#therapies
 	====================================================================*/
-	.therapies {padding-bottom: 0;}
+	#therapies {padding-bottom: 0;}
 
-	.therapies ul li {
+	#therapies ul li {
 		float: left;
 		width: 20%;
 		margin-bottom: 60px;

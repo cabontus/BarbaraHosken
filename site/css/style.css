@@ -76,51 +76,51 @@ global
 }
 
 /*==================================================================
-.evaluation
+#evaluation
 ====================================================================*/
-.evaluation {
+#evaluation {
 	background-color: #4ea391;
 	padding-bottom: 80px;
 }
 
-.evaluation header {
+#evaluation header {
 	padding: 30px 0;
 	background-color: rgba(217,232,228,0.2);
 	text-align: center;
 }
 
-.evaluation header h2 {
+#evaluation header h2 {
 	font-size: 16pt;
 	color: #ffffff;
 }
 
-.evaluation ol {
+#evaluation ol {
 	padding: 40px 0;
 }
 
-.evaluation .step {
+#evaluation .step {
 	list-style: none;
 	margin: 0 auto 60px auto;
 	text-align: center;
 }
 
-.evaluation .step:last-child {
+#evaluation .step:last-child {
 	margin-bottom: 0;
 }
 
-.evaluation .step i {
+#evaluation .step i {
 	font-size: 50pt;
 	color: #fff;
 }
 
-.evaluation .step h3 {
+#evaluation .step h3 {
 	font-size: 16pt;
 	color: #ffffff;
 	margin: 20px 0;
 
 }
 
-.evaluation .step p {
+#evaluation .step p {
 	font-size: 14pt;
 	color: #ffffff;
 	line-height: 20pt;
@@ -151,16 +151,16 @@ global
 /*==================================================================
 .aboutUs
 ====================================================================*/
-.aboutUs {
+#aboutUs {
 	background-color: #d5e9d7;
 	padding-bottom: 60px;
 }
 
-.aboutUs > header {
+#aboutUs > header {
 	margin-bottom: 20px;
 }
 
-.aboutUs img {
+#aboutUs img {
 	display: block;
 	width: 100%;
 	max-width: 400px;
@@ -170,16 +170,16 @@ global
 	top: -40px;
 }
 
-.aboutUs h2 {
+#aboutUs h2 {
 	text-align: center;
 	font-size: 22pt;
 }
 
-.aboutUs .contentCurriculum {
+#aboutUs .contentCurriculum {
 	margin: 0 auto;
 }
 
-.aboutUs .contentCurriculum p {
+#aboutUs .contentCurriculum p {
 	font-size: 14pt;
 	color: #4f6867;
 	margin-bottom: 10px;
@@ -187,63 +187,63 @@ global
 }
 
 /*==================================================================
-.therapies
+#therapies
 ====================================================================*/
-.therapies {
+#therapies {
 	background-image: url("../img/pattern.jpg");
 	background-size: 100%;
 	padding-bottom: 60px;
 }
 
-.therapies .mainQuote {
+#therapies .mainQuote {
 	padding: 30px 0;
 	margin-bottom: 40px;
 	background-color: rgba(255,255,255, 0.2);
 }
 
-.therapies .mainQuote p {
+#therapies .mainQuote p {
 	text-align: center;
 	font-size: 14pt;
 	color: #ffffff;
 }
 
-.therapies li {
+#therapies li {
 	list-style: none;
 	text-align: center;
 	margin-bottom: 30px;
 }
 
-.therapies li:last-child {
+#therapies li:last-child {
 	margin-bottom: 0;
 }
 
-.therapies img {
+#therapies img {
 	display: inline-block;
 	margin-bottom: 10px;
 }
 
-.therapies h3 {
+#therapies h3 {
 	color: #ffffff;
 	font-size:12pt;
 }
 
 /*==================================================================
-.mainFooter
+#mainFooter
 ====================================================================*/
-.mainFooter {
+#mainFooter {
 	padding: 40px;
 	background-color: #2b2d35;
 	text-align: center;
 }
 
-.mainFooter p {
+#mainFooter p {
 	display: block;
 	margin: 0 0 20px;
 	color: #d6dad8;
 	font-size: 14pt;
 }
 
-.mainFooter li {
+#mainFooter li {
 	display: inline;
 	font-size: 22pt;
 	color: #d6dad8;
@@ -251,18 +251,18 @@ global
 	margin: 20px;
 }
 
-.mainFooter a{
+#mainFooter a{
 	color: #ffffff;
 	font-size: 18pt;
 }
 
-.mainFooter a:hover{
+#mainFooter a:hover{
 	color: #59a392;
 	font-size: 18pt;
 }
 
 
-.mainFooter li:hover {
+#mainFooter li:hover {
 	color: #59a392;
 }
 
