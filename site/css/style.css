@@ -232,24 +232,73 @@ global
 .mainFooter
 ====================================================================*/
 .mainFooter {
-	background-color: #4ea391;
-	line-height: 16pt;
-	padding: 20px 0;
+	padding: 40px;
+	background-color: #2b2d35;
+	text-align: center;
 }
 
-.mainFooter strong {
-	color: #ffffff;
+.mainFooter p {
+	display: block;
+	margin: 0 0 20px;
+	color: #d6dad8;
 	font-size: 14pt;
 }
 
 .mainFooter li {
-	font-size: 12pt;
-	color: #ffffff;
+	display: inline;
+	font-size: 22pt;
+	color: #d6dad8;
 	list-style: none;
-	line-height: 20pt;
+	margin: 30px;
 }
 
-.mainFooter .social {
-	padding: 0 0 30px;
-	list-style: none;
+.mainFooter a{
+	color: #ffffff;
+	font-size: 18pt;
+}
+
+.mainFooter a:hover{
+	color: #59a392;
+	font-size: 18pt;
+}
+
+
+.mainFooter li:hover {
+	color: #59a392;
+}
+
+.tooltip {
+	display: inline-block;
+	position: relative;
+}
+
+.tooltip .tooltiptext {
+	position: absolute;
+	width: 120px;
+	padding: 0;
+	border-radius: 5px;
+	visibility: hidden;
+	background-color: black;
+	color: #59a392;
+	text-align: center;
+	font-size: 10pt;
+	z-index: 1;
+	top: 150%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
 }
