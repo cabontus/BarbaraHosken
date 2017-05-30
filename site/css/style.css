@@ -113,11 +113,6 @@ global
 	color: #fff;
 }
 
-.evaluation .step i:hover {
-	font-size: 50pt;
-	color: #d5e9d7;
-}
-
 .evaluation .step h3 {
 	font-size: 16pt;
 	color: #ffffff;
@@ -238,6 +233,7 @@ global
 ====================================================================*/
 .mainFooter {
 	background-color: #4ea391;
+	line-height: 16pt;
 	padding: 20px 0;
 }
 

@@ -15,16 +15,19 @@
 	/*==================================================================
 	.showcase
 	====================================================================*/
-	.showcase img {max-width: 210px;} /********************************************** diminui 300 para 210px pra não distorcer a imagem*****/
+	.showcase img {max-width: 210px;}
 
 	/*==================================================================
 	.evaluation
 	====================================================================*/
 	.evaluation .step {
 		float: left;
-		margin: 2px;
-		width: calc(100% / 3 - 2 * 2px);
+		width: 33.333333%;
+		padding: 0 20px;
 	}
+
+	.evaluation .step:first-child {padding-left: 0;}
+	.evaluation .step:last-child {padding-right: 0;}
 
 	/*==================================================================
 	.click
