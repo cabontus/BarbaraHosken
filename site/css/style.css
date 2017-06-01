@@ -244,6 +244,7 @@ global
 
 #mainFooter ul {
 	list-style: none;
+	text-align: center;
 }
 
 #mainFooter li {
