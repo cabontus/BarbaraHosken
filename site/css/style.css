@@ -257,6 +257,10 @@ global
 	color: #d6dad8;
 }
 
+#mainFooter .facebook .fa {
+	font-size: 20pt;
+}
+
 #mainFooter a:hover{
 	color: #59a392;
 	font-size: 18pt;
