@@ -265,9 +265,16 @@ global
 	color: #59a392;
 }
 
+/*==================================================================
+.tooltip
+====================================================================*/
 .tooltip {
 	display: inline-block;
 	position: relative;
+}
+
+.tooltip:hover {
+	color: #59a392;
 }
 
 .tooltip .tooltiptext {
