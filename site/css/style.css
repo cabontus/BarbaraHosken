@@ -257,11 +257,6 @@ global
 	color: #d6dad8;
 }
 
-#mainFooter a{
-	color: #ffffff;
-	font-size: 18pt;
-}
-
 #mainFooter a:hover{
 	color: #59a392;
 	font-size: 18pt;
