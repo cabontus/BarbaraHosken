@@ -247,7 +247,7 @@ global
 }
 
 #mainFooter li {
-	display: inline;
+	display: inline-block;
 	margin: 20px;
 }
 #mainFooter li .fa {
