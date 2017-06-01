@@ -237,7 +237,7 @@ global
 }
 
 #mainFooter p {
-	margin: 0 0 20px;
+	margin-bottom: 20px;
 	color: #d6dad8;
 	font-size: 14pt;
 }
