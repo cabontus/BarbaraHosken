@@ -275,7 +275,7 @@ global
 .tooltip .tooltiptext {
 	position: absolute;
 	width: 120px;
-	padding: 0;
+	padding: 2px;
 	border-radius: 5px;
 	visibility: hidden;
 	background-color: black;
