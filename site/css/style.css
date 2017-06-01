@@ -242,6 +242,10 @@ global
 	font-size: 14pt;
 }
 
+#mainFooter ul {
+
+}
+
 #mainFooter li {
 	display: inline;
 	color: #d6dad8;
