@@ -261,6 +261,9 @@ global
 	font-size: 20pt;
 }
 
+#mainFooter li .fa:hover {
+	color: #59a392;
+}
 
 .tooltip {
 	display: inline-block;
