@@ -261,20 +261,13 @@ global
 	font-size: 20pt;
 }
 
-#mainFooter li .fa:hover {
-	color: #59a392;
-}
+#mainFooter li .fa:hover,
+.tooltip: hover { color: #59a392;}
 
-/*==================================================================
-.tooltip
-====================================================================*/
+
 .tooltip {
 	display: inline-block;
 	position: relative;
-}
-
-.tooltip:hover {
-	color: #59a392;
 }
 
 .tooltip .tooltiptext {
