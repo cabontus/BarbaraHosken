@@ -221,6 +221,7 @@ global
 #therapies img {
 	display: inline-block;
 	margin-bottom: 10px;
+	max-height: 78px;
 }
 
 #therapies h3 {
