@@ -49,6 +49,7 @@
 	#therapies
 	====================================================================*/
 	#therapies {padding-bottom: 0;}
+	#therapies .mainQuote {margin-bottom: 60px;}
 
 	#therapies ul li {
 		float: left;

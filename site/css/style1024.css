@@ -4,49 +4,5 @@
 global
 ====================================================================*/
 .wrapper{
-	padding: 0 20;
 	max-width: 1920px;
-	margin: 0 auto;
-}
-
-
-/*==================================================================
-.aboutUs
-====================================================================*/
-#aboutUs {
-	display: inline-block;
-	position: relative;
-	background-color: #d5e9d7;
-	padding-bottom: 60px;
-}
-
-#aboutUs > header {
-	margin-bottom: 20px;
-}
-
-#aboutUs img {
-	display: block;
-	width: 100%;
-	max-width: 400px;
-	margin: 0 auto;
-	border: 5px solid #ffffff;
-	position: absolute;
-	top: -40px;
-}
-
-#aboutUs h2 {
-	text-align: center;
-	font-size: 22pt;
-}
-
-#aboutUs .contentCurriculum {
-	margin: 0 auto;
-	margin-left: 600px;
-}
-
-#aboutUs .contentCurriculum p {
-	font-size: 14pt;
-	color: #4f6867;
-	margin-bottom: 10px;
-	line-height: 16pt;
 }
