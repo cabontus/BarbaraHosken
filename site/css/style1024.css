@@ -15,8 +15,9 @@ global
 #aboutUs img {
 	float: left;
 	top: auto;
+	margin: 0 30px;
 }
 
 #aboutUs .contentCurriculum {
-	max-width: 600px;
+	max-width: 400px;
 }
