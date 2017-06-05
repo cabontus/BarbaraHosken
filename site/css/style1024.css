@@ -16,3 +16,7 @@ global
 	float: left;
 	top: auto;
 }
+
+#aboutUs .contentCurriculum {
+	max-width: 600px;
+}
