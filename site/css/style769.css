@@ -42,6 +42,9 @@
 		margin-bottom: 20px;
 	}
 
+	.contentCurriculum p {
+		text-align: justify;
+	}
 
 	/*==================================================================
 	.click
