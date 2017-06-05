@@ -11,3 +11,7 @@ global
 .aboutUs
 ====================================================================*/
 #aboutUs {padding: 40px;}
+
+#aboutUs img {
+	float: left;
+}
