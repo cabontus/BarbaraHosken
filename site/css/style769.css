@@ -33,16 +33,16 @@
 	/*==================================================================
 	#aboutUs
 	====================================================================*/
-	.contentCurriculum {
+	#aboutUs .contentCurriculum {
 		max-width: 700px;
 	}
 
-	.contentCurriculum h3 {
+	#aboutUs .contentCurriculum h3 {
 		text-align: center;
 		margin-bottom: 20px;
 	}
 
-	.contentCurriculum p {
+	#aboutUs .contentCurriculum p {
 		text-align: justify;
 	}
 
