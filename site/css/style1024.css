@@ -20,4 +20,5 @@ global
 
 #aboutUs .contentCurriculum {
 	max-width: 400px;
+	float: left;
 }
