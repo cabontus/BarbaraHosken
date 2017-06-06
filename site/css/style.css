@@ -2,7 +2,7 @@
 body
 ====================================================================*/
 body {
-	font-family: sans-serif;
+	font-family:'Open Sans', sans-serif;
 	font-size: 10pt;
 }
 
@@ -298,6 +298,7 @@ global
 /*==================================================================
 .tooltip whatsapp / .tooltip email
 ====================================================================*/
+
 .whatsapp .tooltiptext{
 	width: 140px;
 	left: calc(50% - 70px);
