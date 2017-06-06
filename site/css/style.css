@@ -268,10 +268,6 @@ global
 .tooltip
 ====================================================================*/
 
-.tooltip {
-	position: relative;
-}
-
 .tooltip .tooltiptext {
 	visibility: hidden;
 	position: absolute;
