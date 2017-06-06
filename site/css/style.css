@@ -273,8 +273,9 @@ global
 .tooltip
 ====================================================================*/
 .tooltip{
-	position:relative;
+	position: relative;
 }
+
 .tooltip .tooltiptext {
 	visibility: hidden;
 	position: absolute;
@@ -303,13 +304,12 @@ global
 /*==================================================================
 .tooltip whatsapp / .tooltip email
 ====================================================================*/
-
-.whatsapp .tooltiptext{
+.tooltip.whatsapp .tooltiptext{
 	width: 140px;
 	left: calc(50% - 70px);
 }
 
-.email .tooltiptext {
-	width: 280px;
-	left: calc(50% - 140px);
+.tooltip.email .tooltiptext {
+	width: 260px;
+	left: calc(50% - 130px);
 }
