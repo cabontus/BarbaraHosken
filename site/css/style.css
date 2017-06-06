@@ -283,7 +283,7 @@ global
 	text-align: center;
 	font-size: 13pt;
 	z-index: 1;
-	top: 130%;
+	top: calc(100% + 20px);
 	left: 50%;
 }
 
