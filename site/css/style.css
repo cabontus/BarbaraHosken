@@ -189,6 +189,7 @@ global
 #therapies
 ====================================================================*/
 #therapies {
+	background-image: url("../img/hoffman.png"); 
 	background-color: #59a392;
 	padding-bottom: 60px;
 }
