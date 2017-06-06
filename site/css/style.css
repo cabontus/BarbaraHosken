@@ -290,7 +290,7 @@ global
 	visibility: visible;
 }
 
-.tooltip .tooltiptext::after {
+.tooltip .tooltiptext:after {
 	content: "";
 	position: absolute;
 	bottom: 100%;
@@ -300,3 +300,10 @@ global
 	border-style: solid;
 	border-color: transparent transparent black transparent;
 }
+
+/*==================================================================
+.tooltip whatsapp / .tooltip email
+====================================================================*/
+
+
+
