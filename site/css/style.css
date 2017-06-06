@@ -170,15 +170,20 @@ global
 	top: -40px;
 }
 
-#aboutUs h3 {
-	font-size: 22pt;
-}
-
-#aboutUs .contentCurriculum {
+/*==================================================================
+.contentCurriculum
+====================================================================*/
+.contentCurriculum {
 	margin: 0 auto;
 }
 
-#aboutUs .contentCurriculum p {
+.contentCurriculum h3 {
+	font-size: 22pt;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contentCurriculum p {
 	font-size: 14pt;
 	color: #4f6867;
 	margin-bottom: 10px;
