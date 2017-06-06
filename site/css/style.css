@@ -190,7 +190,10 @@ global
 ====================================================================*/
 #therapies {
 	background-color: #59a392;
-	background-size: 100%;
+	background-image: url("../img/barbaraPattern.png"); 
+	background-color: #59a392;
+	/*background-color: #00a87e;
+background-image: url("https://www.transparenttextures.com/patterns/hoffman.png");*/
 	padding-bottom: 60px;
 }
 
