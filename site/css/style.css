@@ -285,7 +285,6 @@ global
 	z-index: 1;
 	top: 130%;
 	left: 50%;
-	margin-left: -60px;
 }
 
 .tooltip:hover .tooltiptext {
