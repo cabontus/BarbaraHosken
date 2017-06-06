@@ -269,7 +269,6 @@ global
 ====================================================================*/
 
 .tooltip {
-	display: inline-block;
 	position: relative;
 }
 
@@ -305,5 +304,7 @@ global
 .tooltip whatsapp / .tooltip email
 ====================================================================*/
 
+.tooltip .whatsapp .tooltiptext {
 
+}
 
