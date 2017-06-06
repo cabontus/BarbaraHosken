@@ -189,7 +189,7 @@ global
 #therapies
 ====================================================================*/
 #therapies {
-	background-image: url("../img/hoffman.png"); 
+	background-image: url("../img/hoffman.png");
 	background-color: #59a392;
 	padding-bottom: 60px;
 }
@@ -232,7 +232,7 @@ global
 #mainFooter
 ====================================================================*/
 #mainFooter {
-	padding: 40px;
+	padding: 40px 0;
 	background-color: #2b2d35;
 }
 
