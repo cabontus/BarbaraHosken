@@ -264,6 +264,9 @@ global
 #mainFooter li .fa:hover,
 .tooltip: hover { color: #59a392;}
 
+/*==================================================================
+.tooltip
+====================================================================*/
 
 .tooltip {
 	display: inline-block;
@@ -271,11 +274,11 @@ global
 }
 
 .tooltip .tooltiptext {
+	visibility: hidden;
 	position: absolute;
 	width: 120px;
 	padding: 2px;
 	border-radius: 5px;
-	visibility: hidden;
 	background-color: black;
 	color: #59a392;
 	text-align: center;
@@ -284,6 +287,10 @@ global
 	top: 130%;
 	left: 50%;
 	margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
 }
 
 .tooltip .tooltiptext::after {
@@ -295,8 +302,4 @@ global
 	border-width: 5px;
 	border-style: solid;
 	border-color: transparent transparent black transparent;
-}
-
-.tooltip:hover .tooltiptext {
-	visibility: visible;
 }
