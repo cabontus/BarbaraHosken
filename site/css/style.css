@@ -183,7 +183,7 @@ global
 	margin-bottom: 20px;
 }
 
-#aboutUs .contentCurriculum p {
+.contentCurriculum p {
 	font-size: 14pt;
 	color: #4f6867;
 	margin-bottom: 10px;
@@ -304,12 +304,12 @@ global
 .tooltip whatsapp / .tooltip email
 ====================================================================*/
 
-.whatsapp .tooltiptext{
+.tooltip.whatsapp .tooltiptext{
 	width: 140px;
 	left: calc(50% - 70px);
 }
 
-.email .tooltiptext {
+.tooltip.email .tooltiptext {
 	width: 280px;
 	left: calc(50% - 140px);
 }
