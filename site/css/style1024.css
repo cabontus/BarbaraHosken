@@ -19,7 +19,7 @@ global
 }
 
 #aboutUs .contentCurriculum {
-	max-width: 400px;
+	max-width: calc(100% - 400px - 40px - 40px);
 	float: left;
 }
 
