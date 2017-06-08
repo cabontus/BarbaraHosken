@@ -44,6 +44,10 @@
 		<link rel="stylesheet" href="css/style1025.css" />
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 
+		<!--Plugins-->
+		<link rel="stylesheet" href="css/aos.css" />
+		<script src="js/aos.js"></script>
+
 		<!--Favicon-->
 		<link rel="icon" type="image/png" href="img/faviconOriginal.png" sizes="32x32" />
 	</head>
@@ -54,7 +58,7 @@
 				<nav class="mainMenu">
 					<div class="wrapper">
 						<ul class="cf">
-							<li><a href="#evaluation">A avaliação</a></li>
+							<li><a href="#evaluation" >A avaliação</a></li>
 							<li><a href="#aboutUs">Quem sou</a></li>
 							<li><a href="#therapies">Terapias</a></li>
 							<li><a href="#mainFooter">Contato</a></li>
@@ -64,7 +68,7 @@
 			</header><!-- End .mainHeader-->
 			<div class="showcase">
 				<div class="wrapper">
-					<img src="img/logo.png" alt="logo Barbara Hosken" title="logo Barbara Hosken" />
+					<img src="img/logo.png" alt="logo Barbara Hosken" title="logo Barbara Hosken" data-aos="zoom-out-down"/>
 				</div>
 			</div><!-- End .showcase-->
 			<section id="evaluation">
@@ -104,7 +108,7 @@
 					</div>
 				</header>
 				<div class="wrapper cf">
-					<img src="img/profilePhoto.jpg" alt="foto Barbara Hosken"/>
+					<img src="img/profilePhoto.jpg" alt="foto Barbara Hosken" data-aos="fade-right"/>
 					<div class="contentCurriculum">
 						<h3>Bárbara Hosken</h3>
 						<p>Sou formada e trabalho há mais de 10 anos com medicina tradicional chinesa. Comecei a atuar em Nova Friburgo
@@ -127,7 +131,7 @@
 				<div class="wrapper">
 					<ul class="cf">
 						<li>
-							<img src="img/fitoterapia.png" alt="fitoterapia chinesa"/>
+							<img src="img/fitoterapia.png" alt="fitoterapia chinesa" />
 							<h3>Fitoterapia Chinesa</h3>
 						</li>
 						<li>
@@ -192,5 +196,15 @@
 				</div><!--End .wrapper-->
 			</footer><!-- End #mainFooter-->
 		</main>
+
+		<!--Scripts-->
+		<script src="js/aos.js"></script>
+		<script>
+			AOS.init({
+			delay: 100,
+			duration: 900,
+			});
+		</script>
+
 	</body>
 </html>
