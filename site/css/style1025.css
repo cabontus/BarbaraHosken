@@ -23,8 +23,11 @@ global
 	float: left;
 }
 
-#aboutUs .contentCurriculum h3{text-align: left;}
+#aboutUs .contentCurriculum h3 {text-align: left;}
 
-#aboutUs .contentCurriculum p {line-height: 22pt;}
+#aboutUs .contentCurriculum p {
+	line-height: 22pt;
+	text-align: left;
+}
 
 }

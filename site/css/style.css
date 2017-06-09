@@ -173,11 +173,11 @@ global
 /*==================================================================
 .contentCurriculum
 ====================================================================*/
-#aboutUs .contentCurriculum {
+.contentCurriculum {
 	margin: 0 auto;
 }
 
-#aboutUs h3 {
+.contentCurriculum h3 {
 	font-size: 22pt;
 	text-align: center;
 	margin-bottom: 20px;
@@ -194,7 +194,7 @@ global
 #therapies
 ====================================================================*/
 #therapies {
-	background-image: url("../img/hoffman.png"); 
+	background-image: url("../img/hoffman.png");
 	background-color: #59a392;
 	padding-bottom: 60px;
 }
@@ -273,8 +273,9 @@ global
 .tooltip
 ====================================================================*/
 .tooltip{
-	position:relative;
+	position: relative;
 }
+
 .tooltip .tooltiptext {
 	visibility: hidden;
 	position: absolute;
@@ -303,13 +304,12 @@ global
 /*==================================================================
 .tooltip whatsapp / .tooltip email
 ====================================================================*/
-
 .tooltip.whatsapp .tooltiptext{
 	width: 140px;
 	left: calc(50% - 70px);
 }
 
 .tooltip.email .tooltiptext {
-	width: 280px;
-	left: calc(50% - 140px);
+	width: 260px;
+	left: calc(50% - 130px);
 }
