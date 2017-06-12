@@ -5,7 +5,7 @@
 	====================================================================*/
 	.mainHeader {
 		position: fixed;
-		z-index: 5;
+		z-index: 10;
 		width: 100%;
 		box-shadow: 0 1px 5px #000000;
 	}
