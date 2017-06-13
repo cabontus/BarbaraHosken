@@ -254,7 +254,7 @@ global
 }
 
 #mainFooter li {
-	display: inline-block;
+	display: block;
 	margin: 20px;
 }
 #mainFooter li .fa {
@@ -266,50 +266,18 @@ global
 	font-size: 20pt;
 }
 
-#mainFooter li .fa:hover,
-.tooltip:hover { color: #59a392;}
+#mainFooter li .fa:hover {
+	color: #59a392;
+}
 
 /*==================================================================
 .tooltip
 ====================================================================*/
-.tooltip{
-	position: relative;
+.tooltip.whatsapp,
+.tooltip.email{
+	color: #d6dad8;
 }
-
 .tooltip .tooltiptext {
-	visibility: hidden;
-	position: absolute;
-	padding: 5px;
-	border-radius: 4px;
-	background-color: #000000;
-	text-align: center;
+	margin-left: 10px;
 	font-size: 13pt;
-	z-index: 1;
-	top: calc(100% + 15px);
-}
-
-.tooltip:hover .tooltiptext {visibility: visible;}
-
-.tooltip .tooltiptext:after {
-	content: "";
-	position: absolute;
-	bottom: 100%;
-	left: 50%;
-	margin-left: -8px;
-	border-width: 8px;
-	border-style: solid;
-	border-color: transparent transparent black transparent;
-}
-
-/*==================================================================
-.tooltip whatsapp / .tooltip email
-====================================================================*/
-.tooltip.whatsapp .tooltiptext{
-	width: 140px;
-	left: calc(50% - 70px);
-}
-
-.tooltip.email .tooltiptext {
-	width: 260px;
-	left: calc(50% - 130px);
 }

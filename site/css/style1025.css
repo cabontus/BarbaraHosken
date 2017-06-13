@@ -1,33 +1,88 @@
 @media (min-width: 1025px) {
 
-/*==================================================================
-global
-====================================================================*/
-.wrapper{
-	max-width: 1200px;
-}
+	/*==================================================================
+	global
+	====================================================================*/
+	.wrapper{
+		max-width: 1200px;
+	}
 
-/*==================================================================
-.aboutUs
-====================================================================*/
-#aboutUs {padding: 40px 0;}
+	/*==================================================================
+	.aboutUs
+	====================================================================*/
+	#aboutUs {padding: 40px 0;}
 
-#aboutUs img {
-	float: left;
-	top: auto;
-	margin: 0 40px;
-}
+	#aboutUs img {
+		float: left;
+		top: auto;
+		margin: 0 40px;
+	}
 
-#aboutUs .contentCurriculum {
-	max-width: calc(100% - 400px - 40px - 40px);
-	float: left;
-}
+	#aboutUs .contentCurriculum {
+		max-width: calc(100% - 400px - 40px - 40px);
+		float: left;
+	}
 
-#aboutUs .contentCurriculum h3 {text-align: left;}
+	#aboutUs .contentCurriculum h3 {text-align: left;}
 
-#aboutUs .contentCurriculum p {
-	line-height: 22pt;
-	text-align: left;
-}
+	#aboutUs .contentCurriculum p {
+		line-height: 22pt;
+		text-align: left;
+	}
+
+	/*==================================================================
+	#mainFooter
+	====================================================================*/
+	#mainFooter li {
+		display: inline-block;
+	}
+
+	/*==================================================================
+	.tooltip
+	====================================================================*/
+	.tooltip{
+		position: relative;
+	}
+
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		position: absolute;
+		padding: 5px;
+		border-radius: 4px;
+		background-color: #000000;
+		text-align: center;
+		font-size: 13pt;
+		z-index: 1;
+		top: calc(100% + 15px);
+		margin-left: 0;
+	}
+
+	.tooltip:hover { color: #59a392;}
+
+	.tooltip:hover .tooltiptext {visibility: visible;}
+
+	.tooltip .tooltiptext:after {
+		content: "";
+		position: absolute;
+		bottom: 100%;
+		left: 50%;
+		margin-left: -8px;
+		border-width: 8px;
+		border-style: solid;
+		border-color: transparent transparent black transparent;
+	}
+
+	/*==================================================================
+	.tooltip whatsapp / .tooltip email
+	====================================================================*/
+	.tooltip.whatsapp .tooltiptext{
+		width: 140px;
+		left: calc(50% - 70px);
+	}
+
+	.tooltip.email .tooltiptext {
+		width: 260px;
+		left: calc(50% - 130px);
+	}
 
 }
