@@ -75,4 +75,14 @@
 		margin-bottom: 60px;
 	}
 
+	/*==================================================================
+	#mainFooter
+	====================================================================*/
+	#mainFooter ul {
+		text-align: center;
+	}
+
+	#mainFooter li {
+		display: inline-block;
+	}
 }

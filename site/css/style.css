@@ -251,8 +251,9 @@ global
 }
 
 #mainFooter ul {
+	max-width: 340px;
 	list-style: none;
-	text-align: center;
+	margin: 0 auto;
 }
 
 #mainFooter li {
@@ -282,5 +283,5 @@ global
 }
 .tooltip .tooltiptext {
 	margin-left: 10px;
-	font-size: 13pt;
+	font-size: 10pt;
 }
