@@ -34,3 +34,10 @@ $('[href="#mainFooter"]').click(function(){
 		padding: "58"
 	});
 });
+
+////////////////////////////////////////////////////
+//talk-to API
+////////////////////////////////////////////////////
+$('[href="#evaluation"]').click(function(){
+	Tawk_API.maximize();
+});
